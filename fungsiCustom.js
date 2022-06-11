@@ -18,7 +18,12 @@ let modifyFile3 = (val) => {
 
 // TODO: Kerjakan bacaData
 // gunakan variabel file1, file2, dan file3
-const bacaData = null;
+const bacaData = async (fnCallBack)=> {
+  const jsonFile1 = JSON.stringify(file1)
+  const jsonFile2=JSON.stringify(file2);
+  const jsonFile3=JSON.stringify(file3)
+}
+
 
 // ! JANGAN DIMODIFIKASI
 module.exports = {
